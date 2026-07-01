@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python API Testing Framework</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">QA AUTOMATION PORTFOLIO PROJECT</p>
+      <h1>Python API Testing Framework</h1>
+      <p class="lead">
+        A job-focused API automation project built with Python, pytest, and requests.
+        It demonstrates reusable API client design, smoke and regression coverage,
+        shared pytest fixtures, HTML reporting, and GitHub Actions CI.
+      </p>
+      <div class="links">
+        <a href="https://github.com/anshi43/python-api-testing-framework" target="_blank" rel="noopener noreferrer">
+          GitHub Repository
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project highlights</h2>
+      <ul>
+        <li>Python API test automation with pytest and requests</li>
+        <li>Smoke and regression test suites</li>
+        <li>Reusable API client design</li>
+        <li>Shared fixture setup using conftest.py</li>
+        <li>HTML reporting with pytest-html</li>
+        <li>GitHub Actions CI integration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Covered scenarios</h2>
+      <ul>
+        <li>Get all products</li>
+        <li>Get single product</li>
+        <li>Validate response structure</li>
+        <li>Get categories and validate product category filtering</li>
+        <li>Create cart with POST request</li>
+        <li>Validate negative scenarios for missing product/category</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Project structure</h2>
+      <pre><code>python-api-testing-framework/
+├── .github/workflows/
+├── api/
+├── docs/
+├── test_data/
+├── tests/
+│   ├── smoke/
+│   └── regression/
+├── conftest.py
+├── pytest.ini
+├── requirements.txt
+└── README.md</code></pre>
+    </section>
+
+    <section>
+      <h2>Run locally</h2>
+      <pre><code>python -m venv venv
+venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pytest</code></pre>
+    </section>
+  </main>
+</body>
+</html>
