@@ -175,6 +175,8 @@ This project is intended to demonstrate practical API testing skills for QA and 
 - handling both positive and negative scenarios
 - CI-ready automated testing
 
+Project Page : https://anshi43.github.io/python-api-testing-framework/
+
 ## Future Improvements
 
 Possible next improvements for this repository:
