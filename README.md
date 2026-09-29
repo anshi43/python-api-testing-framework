@@ -1,5 +1,7 @@
 # Python API Testing Framework
 
+[![CI](https://github.com/anshi43/python-api-testing-framework/actions/workflows/python-api-tests.yml/badge.svg?branch=main)](https://github.com/anshi43/python-api-testing-framework/actions/workflows/python-api-tests.yml)
+
 A job-focused API test automation project built with **Python**, **pytest**, and **requests**.
 
 This repository demonstrates how to create a clean and maintainable API automation framework for public REST endpoints using:
